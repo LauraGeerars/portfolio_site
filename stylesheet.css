@@ -1,7 +1,6 @@
 
 header {
   background-color: black;
-    color:white;
     text-align:center;
     padding:0;
 }
@@ -17,26 +16,4 @@ header ul {
     width: 100%;
 }
 
-li {
-  float: left;
-}
-
-li a {
-    display: block;
-    color: #606060;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
