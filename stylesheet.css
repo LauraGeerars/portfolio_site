@@ -17,6 +17,10 @@ header,footer {
     margin-bottom:5px;
 }
 
+nav {
+  border:1px black;
+}
+
 section {
     background-color:#D7D8D9;
 }
