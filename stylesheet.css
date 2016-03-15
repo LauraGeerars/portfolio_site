@@ -1,11 +1,11 @@
 
 body {
-    font-family:Verdana,sans-serif;
+    font-family:Helvetica,sans-serif;
     font-size:0.8em;
 }
 
 header,footer,section,article {
-  border:1px #D7D8D9;
+  border:1px solid black;
     margin:5px;
     margin-bottom:15px;
     padding:8px;
