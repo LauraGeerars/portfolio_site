@@ -5,6 +5,7 @@ body {
 }
 
 header,footer,section,article {
+  border:1px #D7D8D9;
     margin:5px;
     margin-bottom:15px;
     padding:8px;
@@ -15,12 +16,6 @@ header,footer {
     color:black;
     background-color: white;
     margin-bottom:5px;
-}
-
-nav {
-  border:1px black;
-  margin:5px;
-  padding:8px;
 }
 
 section {
