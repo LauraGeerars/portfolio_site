@@ -19,6 +19,8 @@ header,footer {
 
 nav {
   border:1px black;
+  margin:5px;
+  padding:8px;
 }
 
 section {
