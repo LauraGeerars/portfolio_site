@@ -1,10 +1,11 @@
 
 header {
-  background-color: #FFFFFF;
+  background-color: black;
     color:white;
     text-align:center;
     padding:0;
 }
+
 header ul {
     list-style-type: none;
     margin: 0;
@@ -15,6 +16,7 @@ header ul {
     top: 0;
     width: 100%;
 }
+
 li {
   float: left;
 }
