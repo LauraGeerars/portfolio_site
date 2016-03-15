@@ -31,17 +31,6 @@ nav ul li {
     margin:5px;
 }
 
-li {
-  float: left;
-}
-
-li a {
-    display: block;
-    color: #606060;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 a:link {
   color: black;
   background-color: transparent;
