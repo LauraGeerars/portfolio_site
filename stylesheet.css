@@ -32,10 +32,15 @@ header,footer,section,article {
     background-color:white;
 }
 
-header,footer {
+header {
+  color: black;
+  margin-bottom: 5px;
+}
+
+footer {
     position: absolute;
+    bottom: zero;
     color:black;
-    background-color: white;
     margin-bottom:5px;
 }
 
