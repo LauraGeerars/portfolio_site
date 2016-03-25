@@ -1,5 +1,6 @@
 div.img {
   margin: 5px;
+  position: relative;
   border: 1px solid #ccc;
   float: left;
   width: 400px;
@@ -14,7 +15,18 @@ div.img:hover {
 }
 
 div.img img {
-  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+div.img img.portrait {
+  width: 100%;
   height: auto;
 }
 
