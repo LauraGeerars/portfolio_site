@@ -3,7 +3,7 @@ div.img {
   border: 1px solid #ccc;
   float: left;
   width: 400px;
-  height: 300px;
+  max-height: 300px;
   opacity: 1.0;
   overflow: hidden;
 
