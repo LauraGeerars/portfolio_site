@@ -1,3 +1,4 @@
+/* Voor het vaststellen van de look van iedere image */
 div.img {
   margin: 5px;
   position: relative;
@@ -10,10 +11,12 @@ div.img {
 
 }
 
+/* Voor als er over een image heen wordt gegaan met de muis */
 div.img:hover {
   opacity: 0.5;
 }
 
+/* Voor het gelijkstellen van alle images aan dezelfde lengte en breedte */
 div.img img {
   position: absolute;
   left: 50%;
@@ -30,6 +33,7 @@ div.img img.portrait {
   height: auto;
 }
 
+/* Dit is voor de desc titel de aan de image gekoppeld zit */
 div.desc {
   padding: 1px;
   text-align: center;
@@ -91,8 +95,12 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover:not(.active) {
   background-color: #333;
+}
+
+.active {
+  background-color: white;
 }
 
 a:link {
