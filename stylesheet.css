@@ -8,7 +8,6 @@ body {
 
 h1 {
   font-family: Helvetica, sans-serif;
-  text-transform: uppercase;
   color: black;
   font-size: 2em;
   letter-spacing: 0.3em;
@@ -17,6 +16,10 @@ h1 {
 
 h1, h2, h3 {
   color: black;
+  line-height: 1.5
+}
+
+p {
   line-height: 1.5
 }
 
@@ -123,7 +126,6 @@ a:link {
 
 
 
-/* Voor het vaststellen van de look van iedere image */
 div.img {
   margin: 5px;
   position: relative;
@@ -143,7 +145,7 @@ div.img:hover {
 
 /* Voor het gelijkstellen van alle images aan dezelfde lengte en breedte */
 div.img img {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   height: 100%;
