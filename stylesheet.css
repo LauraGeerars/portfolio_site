@@ -11,7 +11,7 @@ h1 {
   text-transform: uppercase;
   color: black;
   font-size: 2em;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.3em;
 }
 
 
@@ -42,8 +42,6 @@ nav {
   background-color: #403F3E;
   background-position: center;
   background-repeat: no-repeat;
-  
-  
   height: 70px;
   width: 100%;
   position: fixed;
@@ -101,7 +99,7 @@ a:link {
 
 .home {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 10px;
   padding: 0 10px;
 }
 
@@ -121,8 +119,6 @@ a:link {
 
 .container h1{
   text-align: center;
-  margin: 0 auto;
-
 
 
 
