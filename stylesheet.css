@@ -85,29 +85,25 @@ a:link {
 
 /* voor introductie op home-page*/
 
-h2 {
-  text-align: center;
-  font-family: roboto;
-  font-weight: 200;
-  font-size: 3vw;
-  letter-spacing: 10px;
-  color: Black;
-}
-
 .home {
-    margin: -20px auto 0px auto;
-    padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
-.introductie {
-    background-color: #E0E0E0;
-    border-left: 2px #E0E0E0;
-    padding: 20px 80px 20px 130px;
-    border-radius: 5px;
-    color: black;
+.container {
+  max-width: 100%;
+  min-width: 25em;
+  min-height: 50vh;
+  background-color: white;
+  box-shadow: 5px 10px 100px grey;
 }
 
-.introductie .highlight {
+.container h1{
+  text-align: center;
+  margin: 0 auto;
+
+.container .highlight {
     font-weight: 600;
     font-style: bold;
     letter-spacing: 0.5px;
