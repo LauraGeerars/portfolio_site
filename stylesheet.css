@@ -93,11 +93,6 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
 /* Voor het vaststellen van de look van iedere image */
 div.img {
