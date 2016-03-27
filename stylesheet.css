@@ -4,14 +4,28 @@ body {
     font-size:0.8em;
 }
 
+/* lettertype h1 en meer */
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2em;
+  letter-spacing: 0.22em;
+}
+
+
+h1, h2, h3 {
+  color: black;
+  line-height: 1.5
+}
+
 section,article {
     margin:5px;
     margin-bottom:15px;
     padding:8px;
     background-color:white;
 }
-
-
 
 /*
 article {
