@@ -99,15 +99,17 @@ a:link {
   box-shadow: 5px 10px 100px grey;
 }
 
-.container h1{
-  text-align: center;
-  margin: 0 auto;
-
 .container .highlight {
     font-weight: 600;
     font-style: bold;
     letter-spacing: 0.5px;
 }
+
+.container h1{
+  text-align: center;
+  margin: 0 auto;
+
+
 
 
 
