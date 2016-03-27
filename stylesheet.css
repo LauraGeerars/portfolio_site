@@ -123,22 +123,6 @@ a:link {
 .container h1{
   text-align: center;
 
-/* voor foto op homepage */
-.photo {
-  position: relative;
-  display: block;
-  margin-bottom: 1.5em;
-}
-
-.photo img {
-  width: 20vh;
-  height: 20vh;
-  display: block;
-  margin: 0 auto;
-  border-radius: 100%;
-  box-shadow: 0 0 0 1.5em #ffffff;
-}
-
 
 div.img {
   margin: 5px;
