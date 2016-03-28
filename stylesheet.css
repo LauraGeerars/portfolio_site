@@ -133,7 +133,7 @@ img
 }
 
 
-div.img:hover {
+img:hover {
   opacity: 0.5;
 }
 
@@ -144,37 +144,35 @@ div.img:hover {
 
 
 /*  Secties van 3  */
-.sectie 
-{
+.section {
   clear: both;
   padding: 0px;
   margin: 0px;
 }
 
 /*  Kolom van drie */
-.kolom
-{
+.col {
   display: block;
   float:left;
   padding: 1% 0 1% 1.6%;
 }
 
-.kolom:first-child 
+.col:first-child 
 { 
   margin-left: 0; 
 }
 
 /*  Groeperen  */
-.groep:before,.groep:after 
+.group:before,.group:after 
 { 
   content:""; 
   display:table; 
 }
-.groep:after 
+.group:after 
 { 
   clear:both;
 }
-.groep 
+.group 
 { 
 zoom:1; /* voor IE 6/7 */ 
 }
@@ -183,5 +181,5 @@ zoom:1; /* voor IE 6/7 */
 
 .grid 
 {
-  width: 31.26%;
+  width: 49.2%;
 }
