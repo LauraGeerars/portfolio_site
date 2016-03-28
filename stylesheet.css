@@ -17,11 +17,12 @@ h1 {
 
 h1, h2, h3 {
   color: black;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 p {
-  line-height: 1.5
+  line-height: 1.5;
+  color: #403F3E;
 }
 
 section {
