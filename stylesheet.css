@@ -124,6 +124,7 @@ a:link {
   height: 350px;
 }
 
+/* presentatie weergave drive */
 .presentation {
   width: 600px;
   height: 350px;
@@ -149,7 +150,7 @@ img:hover {
   border:1px solid black;
 }
 
-/* grid toevoegen */
+/* grid toevoegen, met behulp van responsive grid system*/ 
 /*  2 secties */
 .section {
   clear: both;
