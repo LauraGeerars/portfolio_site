@@ -143,41 +143,39 @@ img:hover {
 }
 
 
-/*  Secties van 3  */
+/*  2 secties */
 .section {
   clear: both;
   padding: 0px;
   margin: 0px;
 }
 
-/*  Kolom van drie */
+/*  2 columns */
 .col {
   display: block;
   float:left;
   padding: 1% 0 1% 1.6%;
 }
 
-.col:first-child 
-{ 
+.col:first-child  { 
   margin-left: 0; 
 }
 
-/*  Groeperen  */
-.group:before,.group:after 
-{ 
+/*  Groepering  */
+.group:before,.group:after { 
   content:""; 
   display:table; 
 }
-.group:after 
-{ 
+
+.group:after { 
   clear:both;
 }
-.group 
-{ 
+
+.group { 
 zoom:1; /* voor IE 6/7 */ 
 }
 
-/*  Grid dat beeld door 3 deelt */
+/*  Grid dat beeld door 2 deelt */
 
 .grid 
 {
