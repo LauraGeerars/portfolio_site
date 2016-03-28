@@ -1,4 +1,4 @@
-/* lettertypes algemeen */
+/* Lettertypes instelling algemeen */
 
 h1 {
   font-family: Helvetica, sans-serif;
@@ -19,7 +19,7 @@ p {
   color: #403F3E;
 }
 
-/* indeling van de body, nav, section */
+/* Indeling van de body, nav, section */
 
 body {
     font-family:Georgia,sans-serif;
@@ -39,7 +39,6 @@ section {
 }
 
 nav {
-  
   background-color: #403F3E;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,19 +70,19 @@ nav li {
 nav ul li a {
   padding-bottom: 18px;
   padding-top: 18px;
-  /* padding-left en padding-right is voor de tussenruimtes tussen de titels van de nav bar */
+  /* Padding-left en padding-right is voor de tussenruimtes tussen de titels van de nav bar */
   padding-left: 2vw;
   padding-right: 2vw;
   font-family: Helvetica;  
   font-weight: 300;
   color: white;
-  /* letter-spacing is oor ruimte tussen de letters van nav */
+  /* Letter-spacing is oor ruimte tussen de letters van nav */
   letter-spacing: 5px;
   text-decoration: none;
-  /* webkit-font-smoothing is voor het prettiger lezen van de letters */
+  /* Webkit-font-smoothing is voor het prettiger lezen van de letters */
   -webkit-font-smoothing: antialiased;
   
-  /* transition is voor het 'versoepelen' van de hover*/
+  /* Transition is voor het 'versoepelen' van de hover*/
   transition: all 0.5s;
 
 }
@@ -98,7 +97,7 @@ a:link {
   text-decoration: none;
 }
 
-/* voor introductie op home-page*/
+/* Voor introductie op home-page */
 
 .home {
   max-width: 1000px;
@@ -106,7 +105,7 @@ a:link {
   padding: 0 10px;
 }
 
-/* alles voor de container bij iedere pagina */
+/* Alles voor de container bij iedere pagina */
 
 .container {
   max-width: 70%;
@@ -118,19 +117,19 @@ a:link {
   box-shadow: 5px 10px 100px grey;
 }
 
-/* video weergave */
+/* Video weergave */
 .video {
   width: 600px;
   height: 350px;
 }
 
-/* presentatie weergave drive */
+/* Presentatie weergave drive */
 .presentation {
   width: 600px;
   height: 350px;
 }
 
-/* img instellingen */
+/* Img instellingen met hover */
 
 img
 {
@@ -150,7 +149,7 @@ img:hover {
   border:1px solid black;
 }
 
-/* grid toevoegen, met behulp van responsive grid system*/ 
+/* Grid toevoegen, met behulp van responsive grid system*/ 
 /*  2 secties */
 .section {
   clear: both;
@@ -180,7 +179,7 @@ img:hover {
 }
 
 .group { 
-zoom:1; /* voor IE 6/7 */ 
+zoom:1; /* Voor IE 6/7 */ 
 }
 
 /*  Grid voor 2  */
@@ -191,7 +190,7 @@ zoom:1; /* voor IE 6/7 */
   width: 47%;
 }
 
-/*  met minder dan 480 picxels: dit */
+/*  Met minder dan 480 picxels: dit */
 
 @media only screen and (max-width: 480px) {
   .col { 
