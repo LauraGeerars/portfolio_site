@@ -23,7 +23,7 @@ p {
   line-height: 1.5
 }
 
-section,article {
+section {
     margin:50px;
     margin-bottom:15px;
     padding:8px;
@@ -116,12 +116,6 @@ a:link {
   box-shadow: 5px 10px 100px grey;
 }
 
-.container .highlight {
-    font-weight: 600;
-    font-style: bold;
-    letter-spacing: 0.5px;
-}
-
 .container img
 {
   width:100%;
@@ -134,8 +128,8 @@ img
   width:100%;
   height:auto;
   opacity: 1.0;
-  overflow: hidden;
 }
+
 
 div.img:hover {
   opacity: 0.5;
