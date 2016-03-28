@@ -61,6 +61,7 @@ nav {
 
 nav ul {
   vertical-align: center;
+  position: fixed;
 }
 
 nav li {
