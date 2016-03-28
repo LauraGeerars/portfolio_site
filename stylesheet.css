@@ -1,6 +1,6 @@
 
 body {
-    font-family:Helvetica,sans-serif;
+    font-family:Georgia,sans-serif;
     font-size:0.8em;
     text-align: center;
 }
@@ -8,7 +8,7 @@ body {
 /* lettertype h1 en meer */
 
 h1 {
-  font-family: Georgia, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: black;
   font-size: 2em;
   letter-spacing: 0.3em;
@@ -16,7 +16,7 @@ h1 {
 
 
 h1, h2, h3 {
-  font-family: Georgia, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: black;
   line-height: 1.5;
 }
@@ -177,9 +177,3 @@ img:hover {
 zoom:1; /* voor IE 6/7 */ 
 }
 
-/*  Grid dat beeld door 2 deelt */
-
-.grid 
-{
-  width: 49.2%;
-}
