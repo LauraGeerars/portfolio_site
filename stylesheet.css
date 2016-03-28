@@ -1,11 +1,4 @@
-
-body {
-    font-family:Georgia,sans-serif;
-    font-size:0.8em;
-    text-align: center;
-}
-
-/* lettertype h1 en meer */
+/* lettertypes algemeen */
 
 h1 {
   font-family: Helvetica, sans-serif;
@@ -26,18 +19,20 @@ p {
   color: #403F3E;
 }
 
+/* indeling van de body, nav, section */
+
+body {
+    font-family:Georgia,sans-serif;
+    font-size:0.8em;
+    text-align: center;
+}
+
 section {
     margin:50px;
     margin-bottom:15px;
     padding:8px;
     background-color:white;
 }
-
-/*
-article {
-  
-}
-*/
 
 section {
     background-color:#D7D8D9;
@@ -111,6 +106,8 @@ a:link {
   padding: 0 10px;
 }
 
+/* alles voor de container bij iedere pagina */
+
 .container {
   max-width: 70%;
   margin: 15px auto 0;
@@ -120,6 +117,14 @@ a:link {
   position: relative;
   box-shadow: 5px 10px 100px grey;
 }
+
+/* video weergave */
+.video {
+  width: 600px;
+  height: 350px;
+}
+
+/* img instellingen */
 
 img
 {
@@ -139,7 +144,7 @@ img:hover {
   border:1px solid black;
 }
 
-
+/* grid toevoegen */
 /*  2 secties */
 .section {
   clear: both;
@@ -180,7 +185,7 @@ zoom:1; /* voor IE 6/7 */
   width: 47%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  met minder dan 480 picxels: dit */
 
 @media only screen and (max-width: 480px) {
   .col { 
