@@ -107,10 +107,12 @@ a:link {
 }
 
 .container {
-  max-width: 100%;
-  min-width: 25em;
-  min-height: 50vh;
+  max-width: 70%;
+  margin: 15px auto 0;
+  padding: 0 20px;
   background-color: white;
+  top: 50px;
+  position: relative;
   box-shadow: 5px 10px 100px grey;
 }
 
@@ -120,46 +122,70 @@ a:link {
     letter-spacing: 0.5px;
 }
 
-.container h1{
-  text-align: center;
-
-
-div.img {
-  margin: 50px;
-  position: relative;
-  border: 1px solid #ccc;
-  float: left;
-  width: 500px;
-  height: 350px;
-  opacity: 1.0;
-  overflow: hidden;
-
+.container img
+{
+  width:100%;
 }
 
-/* Voor als er over een image heen wordt gegaan met de muis */
+
+img
+{
+  max-width:900px;
+  width:100%;
+  height:auto;
+  opacity: 1.0;
+  overflow: hidden;
+}
+
 div.img:hover {
   opacity: 0.5;
 }
 
-/* Voor het gelijkstellen van alle images aan dezelfde lengte en breedte */
-div.img img {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+.opdrachtimg
+{
+  border:1px solid black;
 }
 
-div.img img.portrait {
-  width: 100%;
-  height: auto;
+
+/*  Secties van 3  */
+.sectie 
+{
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
-/* Dit is voor de desc titel de aan de image gekoppeld zit */
-div.desc {
-  padding: 1px;
-  text-align: center;
+/*  Kolom van drie */
+.kolom
+{
+  display: block;
+  float:left;
+  padding: 1% 0 1% 1.6%;
+}
+
+.kolom:first-child 
+{ 
+  margin-left: 0; 
+}
+
+/*  Groeperen  */
+.groep:before,.groep:after 
+{ 
+  content:""; 
+  display:table; 
+}
+.groep:after 
+{ 
+  clear:both;
+}
+.groep 
+{ 
+zoom:1; /* voor IE 6/7 */ 
+}
+
+/*  Grid dat beeld door 3 deelt */
+
+.grid 
+{
+  width: 31.26%;
 }
