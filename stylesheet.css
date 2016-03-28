@@ -55,6 +55,7 @@ nav {
   left: 0px;
   color: white;
   text-align: center;
+  z-index: 1000;
   
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
